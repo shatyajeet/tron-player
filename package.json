@@ -1,0 +1,36 @@
+{
+  "name": "tron-player",
+  "version": "1.0.0",
+  "description": "Web based media player that supports HLS, DASH and DRM content playback",
+  "main": "dist/tron-player.min.js",
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatyajeet/tron-player.git"
+  },
+  "keywords": [
+    "HTML5",
+    "Player",
+    "Streaming",
+    "Media",
+    "HLS",
+    "DASH",
+    "DRM"
+  ],
+  "author": "Shatyajeet Parida <shatyajeet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shatyajeet/tron-player/issues"
+  },
+  "homepage": "https://github.com/shatyajeet/tron-player#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
