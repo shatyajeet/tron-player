@@ -62,3 +62,6 @@ typings/
 
 # distribution
 dist
+
+# IDE related
+.idea

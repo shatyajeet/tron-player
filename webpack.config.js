@@ -13,6 +13,15 @@ module.exports = {
   },
   devtool: 'cheap-inline-source-map',
   mode: 'development',
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
+      }
+    ]
+  },
   plugins: [
     new HTMLWebpackPlugin({
       inject: false,
